@@ -12,7 +12,7 @@ $ pip install pyinstaller flask
 # Normal build command:
 
 ```shell
-$ pyinstaller --onefile --add-data 'templates:templates' --add-data 'static:static' normal_flaskapp.py
+$ pyinstaller --onefile --add-data "templates:templates" --add-data "static:static" normal_flaskapp.py
 ```
 
 # What fails with this?
